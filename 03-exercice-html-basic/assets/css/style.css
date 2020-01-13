@@ -1,0 +1,25 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  color: darkgrey;
+}
+
+header {
+  /*width: 100%;*/
+  background: #158e8c;
+}
+
+header > img {
+  width: 200px;
+  padding: 1em;
+}
+
+h3 {
+  color: orange;
+}
+
+.page {
+  width: 50%;
+  margin: 0 auto;
+}
