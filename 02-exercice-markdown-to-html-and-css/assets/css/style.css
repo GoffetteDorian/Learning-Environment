@@ -1,0 +1,55 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #a69595;
+}
+
+h2 {
+  margin-bottom: 2em;
+  color: #404040;
+  text-align: center;
+}
+
+h3 {
+  color: #404040;
+}
+
+section {
+  margin: 0 auto;
+  width: 50%;
+}
+
+hr {
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+ul {
+  list-style-type: georgian;
+}
+
+a {
+  text-decoration: none;
+}
+
+blockquote {
+  background: #d9d9d9;
+  border-radius: 6px;
+  padding: 1em;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+table {
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  padding: 1em;
+  border: 1px solid black;
+}
