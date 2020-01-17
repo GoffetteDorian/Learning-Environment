@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Markdown to HTML</title>
+  </head>
+  <body>
+    <h2>1. Titres</h2>
+    <p>
+      Pour créer un heading, ajouter "#" devant un mot ou une phrase. Le nombre
+      de "#" que vous utilisez correspond au niveau de heading. Par exemple,
+      pour créer un heading de niveau 3 (h3), utilisez 3 fois "#" (e.g., ### Mon
+      Header).
+    </p>
+    <h4>Exemple:</h4>
+    <blockquote>
+      ## Salut
+    </blockquote>
+    <p>Ce qui nous donne :</p>
+    <blockquote>
+      <h2>Salut</h2>
+    </blockquote>
+    <hr />
+
+    <h2>2. Paragraphes</h2>
+    <p>
+      Pour créer des paragraphes, utilisez une ligne blanche pour séparer une ou
+      plusieurs lignes de texte. Vous ne devez pas utiliser d'espaces ou de
+      tabs.
+    </p>
+    <hr />
+
+    <h2>3. Sauts de ligne</h2>
+    <p>
+      Pour créer un saut de ligne, finissez une ligne avec 2 ou plusieurs
+      espaces, et puis tapez retour.
+    </p>
+    <hr />
+
+    <h2>4. Mise en évidence</h2>
+
+    <p>
+      Il existe plusieurs types de mise en évidences :
+    </p>
+
+    <ul>
+      <li>
+        <h3>Mettre en gras</h3>
+
+        <p>
+          Pour mettre en gras en markdown, il vous suffit d'ajouter deux
+          astérisques (\*) ou underscores (\_) avant et après le mot ou la
+          phrase que vous voulez mettre en évidence.
+        </p>
+
+        <blockquote>
+          <p>
+            Exemple : **un mot** ou __une phrase quelconque__
+          </p>
+        </blockquote>
+
+        <h4>Résultat :</h4>
+        <blockquote>
+          <p>un <b>mot</b> ou <b>une phrase quelconque</b></p>
+        </blockquote>
+      </li>
+      <li>
+        <h4>Mettre en italique</h4>
+        <p>
+          Pour mettre en italique en markdown, il suffit d'ajouter seulement un
+          astérisque (\*) ou underscore (\_) avant et après le mot ou la phrase
+          que vous voulez mettre en évidence.
+        </p>
+        <blockquote>
+          <p>Exemple: _un mot_ ou _une phrase quelconque_</p>
+        </blockquote>
+        <h4>Résultat :</h4>
+        <blockquote>
+          <p>un <i>mot</i> ou <i>phrase quelconque</i></p>
+        </blockquote>
+      </li>
+      <li>
+        <h3>Mettre en gras et italique</h3>
+
+        <p>
+          Pour faire les deux en même temps, il suffit d'ajouter trois
+          astérisques (\*) ou underscores (\_) avant et après le mot ou la
+          phrase à mettre en évidence.
+        </p>
+
+        <blockquote>
+          <p>
+            Exemple : un ***mot*** ou ___une phrase quelconque___
+          </p>
+        </blockquote>
+
+        <h4>Résultat :</h4>
+        <blockquote>
+          <p>
+            un <i><b>mot</b></i> ou <i><b>une phrase quelconque</b></i>
+          </p>
+        </blockquote>
+      </li>
+    </ul>
+    <hr />
+
+    <h2>5. Bloc de citations</h2>
+
+    <p>
+      Il existe plusieurs types de blocs de citations :
+    </p>
+    <ul>
+      <li>
+        <h3>Simple bloc de citations</h3>
+
+        <p>
+          Il suffit d'ajouter un simple > devant votre paragraphe.
+        </p>
+
+        <blockquote>
+          <p>
+            Exemple : > Dorothée la suivi dans une des magnifique pièces de son
+            château.
+          </p>
+        </blockquote>
+
+        <h4>Résultat :</h4>
+        <blockquote>
+          <p>
+            >Dorothée la suivi dans une des magnifique pièces de son château.
+          </p>
+        </blockquote>
+      </li>
+      <li>
+        <h3>Bloc de citations avec pararaphes</h3>
+
+        <p>
+          A chaque nouvelle ligne, ajoutez un > devant votre paragraphe.
+        </p>
+
+        <blockquote>
+          <p>
+            Exemple : >paragraphe1 >paragraphe2 >paragraphe3
+          </p>
+        </blockquote>
+        <h4>Résultat :</h4>
+
+        <blockquote>paragraphe1</blockquote>
+        <blockquote>paragraphe2</blockquote>
+        <blockquote>paragraphe3</blockquote>
+      </li>
+    </ul>
+    <hr />
+
+    <h2>6. Listes</h2>
+
+    <p>
+      Il existe plusieurs types de listes :
+    </p>
+
+    <ul>
+      <li>
+        <h3>Liste ordonnée</h3>
+
+        <p>
+          Pour avoir une liste ordonnée, il suffit de mettre des numéros à
+          partir de 1 suivi d'un point devant vos listes items.
+        </p>
+
+        <blockquote>
+          <p>
+            Exemple : 1. Item1 2. Item2 3. Item3
+          </p>
+        </blockquote>
+        <h4>Résultat :</h4>
+
+        <blockquote>
+          <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ol>
+        </blockquote>
+      </li>
+      <li>
+        <h3>Liste non-ordonnée</h3>
+
+        <p>
+          Pour avoir une liste non-ordonnée, il suffit de mettre un astérique
+          devant vos listes items.
+        </p>
+
+        <blockquote>
+          <p>
+            Exemple : * Item1 * Item2 * Item3
+          </p>
+        </blockquote>
+
+        <h4>Résultat :</h4>
+
+        <blockquote>
+          <ul>
+            <li>Item1</li>
+            <li>Item2</li>
+            <li>Item3</li>
+          </ul>
+        </blockquote>
+      </li>
+    </ul>
+    <h2>7. Code Blocks</h2>
+
+    Les blocs code permettent de spécifier au naviguateur lorsqu'il s'agit d'un
+    titre, d'un paragraphe, du commencement d'une section etc... Il ne faut
+    cependant pas oublié de les fermer ensuite, pour garder un code correcte...
+
+    <h4>exemple:</h4>
+
+    <blockquote>
+      <code>
+        &lt;title&gt;votre titre&lt;title&gt; <br />
+        &lt;p&gt;Ceci est un parapgraphe&lt;/p&gt;
+      </code>
+    </blockquote>
+
+    <hr />
+
+    <h2>8. Horizontal Rules</h2>
+
+    <p>
+      Pour mettre en place une règle horizontale continue, avec tirets, ou
+      traits de soulignement vous devez utiliser :
+    </p>
+
+    <blockquote>
+      *** : permettera de créer une ligne horizontale. <br />
+      --- : Permettera de créer une ligne avec des tirets. <br />
+      ___ : Permettera de créer une ligne de soulignement. <br />
+    </blockquote>
+
+    <hr />
+
+    <h2>9. Links</h2>
+
+    <p>
+      Pour créer un lien, écrivez d'abord le texte du lien suivis directement de
+      l'url.
+    </p>
+
+    <h4>Exemple :</h4>
+    <blockquote>
+      <p>
+        j'adore le site : [CLIQUE ICI POUR ACCÉDER AU SITE
+        BECODE!](https://my.becode.org/)
+      </p>
+    </blockquote>
+
+    <h4>
+      Ce qui va donner :
+    </h4>
+
+    <blockquote>
+      j'adore le site :
+      <a href="https://my.becode.org/">
+        CLIQUE ICI POUR ACCÉDER AU SITE BECODE!
+      </a>
+    </blockquote>
+
+    <hr />
+
+    <h2>10. Images</h2>
+
+    <p>
+      Pour ajouter une image, il faut ajouter un point d'exclamation ( ! ),
+      suivi du text alternatif entre crochets, ainsi que le chemin ou URL de
+      l'image entre parenthèses. Un titre peut être ajouté entre guillemets
+      après l'URL dans les parenthèses.
+    </p>
+
+    <blockquote>
+      ![The Shining, a Stanley Kubrick film](/assets/images/shining.gif "The
+      Shining")
+    </blockquote>
+
+    <h4>
+      Voici le résultat:
+    </h4>
+
+    <blockquote>
+      <img
+        src="./assets/images/shining.gif"
+        alt="The Shining"
+        title="The Shining, a Stanley Kubrick film"
+      />
+    </blockquote>
+
+    <h3>Liens imagés</h3>
+
+    <p>
+      Pour ajouter un lien à une image, englobez le Markdown de l'image dans des
+      crochets, ensuite ajoutez le lien entre parenthèses.
+    </p>
+
+    <blockquote>
+      [![How to be an unicorn](/assets/images/unicorn.gif "How to be an
+      unicorn")](https://lmgtfy.com/?q=How+to+be+a+unicorn)
+    </blockquote>
+
+    <h4>
+      Voici le résultat:
+    </h4>
+
+    <blockquote>
+      <a href="https://lmgtfy.com/?q=How+to+be+a+unicorn">
+        <img
+          src="./assets/images/unicorn.gif"
+          alt="How to be an unicorn"
+          title="How to be an unicorn"
+        />
+      </a>
+    </blockquote>
+
+    <hr />
+
+    <h2>11. Caractères d'échappement</h2>
+
+    <p>
+      Pour afficher un caractère qui est normalement utilisé pour formatter du
+      texte dans un fichier Markdown, ajoutez un backslash ( \ ) avant celui-ci.
+    </p>
+
+    <blockquote>
+      \* Sans le backslash, ceci est un élément d'une liste non-ordonnée
+    </blockquote>
+
+    <h3>
+      Voici le résultat:
+    </h3>
+
+    <blockquote>
+      * Sans le backslash, ceci est un élément d'une liste non-ordonnée
+    </blockquote>
+
+    <h2>Liste des caractères échappables</h2>
+
+    <p>
+      Vous pouvez utiliser le backslash ( \\ ) pour échapper les caractères
+      suivants.
+    </p>
+    <blockquote>
+      <table>
+        <tr>
+          <td>Caractère</td>
+          <td>Nom</td>
+        </tr>
+        <tr>
+          <td>\</td>
+          <td>backslash</td>
+        </tr>
+        <tr>
+          <td>`</td>
+          <td>backtick</td>
+        </tr>
+        <tr>
+          <td>*</td>
+          <td>astérisque</td>
+        </tr>
+        <tr>
+          <td>_</td>
+          <td>underscore</td>
+        </tr>
+        <tr>
+          <td>{}</td>
+          <td>accolades</td>
+        </tr>
+        <tr>
+          <td>[]</td>
+          <td>crochets</td>
+        </tr>
+        <tr>
+          <td>()</td>
+          <td>parenthèses</td>
+        </tr>
+        <tr>
+          <td>#</td>
+          <td>dièse</td>
+        </tr>
+        <tr>
+          <td>+</td>
+          <td>signe plus</td>
+        </tr>
+        <tr>
+          <td>-</td>
+          <td>signe moins</td>
+        </tr>
+        <tr>
+          <td>.</td>
+          <td>point</td>
+        </tr>
+        <tr>
+          <td>!</td>
+          <td>point d'exclamation</td>
+        </tr>
+        <tr>
+          <td>|</td>
+          <td>pipe</td>
+        </tr>
+      </table>
+    </blockquote>
+  </body>
+</html>
